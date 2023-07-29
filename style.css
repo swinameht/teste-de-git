@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-image: linear-gradient(to top, #76F7C3, #23C282);
+    background-image: linear-gradient(to bottom,#214F4B,#2DE1FC);
     height: 100vh;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: justify;
@@ -22,11 +22,20 @@ main{
     margin: auto;
     padding: 10px;
     box-shadow: 10px 10px 10px black;
+    text-align: center;
+}
+
+header{
+    background-color: #09e85faf;
+    border-radius: 3em;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h1{
     text-align: center;
-    text-shadow: 1px 1px 2px black;
+    padding: 2px;
+    color: black;
 }
 
 a{
@@ -36,3 +45,29 @@ a{
     text-decoration: underline;
 }
 */
+
+.contatos h2{
+   text-align: center;
+}
+
+.icones a{
+   text-align: center; 
+}
+
+
+
+nav{
+    background-color: #09e85faf;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    border-radius: 3em;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+nav > a{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 40px;
+}
